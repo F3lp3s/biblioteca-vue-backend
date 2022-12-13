@@ -12,7 +12,7 @@ export const logarUsuario = (req, res) => {
   })
 }
 
-export const mostrarLivros = (req, res) => {
+  export const mostrarLivros = (req, res) => {
   getLivros((err, results) => {
     if(err) {
       res.send(err);
